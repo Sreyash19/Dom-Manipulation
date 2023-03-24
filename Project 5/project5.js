@@ -33,7 +33,7 @@ addTask.addEventListener('click',function(){
     inputTask.value ="";
 
     checkButton.addEventListener('click',function(){
-        checkButton.parentElement.style.textDecoration="line-through";
+        li.style.textDecoration="line-through";
     });
 
     deleteButton.addEventListener('click', function(e){
